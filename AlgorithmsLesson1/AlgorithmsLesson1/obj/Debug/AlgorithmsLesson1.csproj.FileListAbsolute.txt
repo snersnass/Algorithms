@@ -1,0 +1,6 @@
+c:\users\karen vaneck\documents\visual studio 2013\Projects\AlgorithmsLesson1\AlgorithmsLesson1\bin\Debug\AlgorithmsLesson1.exe.config
+c:\users\karen vaneck\documents\visual studio 2013\Projects\AlgorithmsLesson1\AlgorithmsLesson1\bin\Debug\AlgorithmsLesson1.exe
+c:\users\karen vaneck\documents\visual studio 2013\Projects\AlgorithmsLesson1\AlgorithmsLesson1\bin\Debug\AlgorithmsLesson1.pdb
+c:\users\karen vaneck\documents\visual studio 2013\Projects\AlgorithmsLesson1\AlgorithmsLesson1\obj\Debug\AlgorithmsLesson1.csprojResolveAssemblyReference.cache
+c:\users\karen vaneck\documents\visual studio 2013\Projects\AlgorithmsLesson1\AlgorithmsLesson1\obj\Debug\AlgorithmsLesson1.exe
+c:\users\karen vaneck\documents\visual studio 2013\Projects\AlgorithmsLesson1\AlgorithmsLesson1\obj\Debug\AlgorithmsLesson1.pdb
