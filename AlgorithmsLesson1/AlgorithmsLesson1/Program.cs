@@ -18,20 +18,21 @@ namespace AlgorithmsLesson1
       {
           int p1 = getIntFromConsole("Enter point p");
           int p2 = getIntFromConsole("Enter point q");
-          UnionFind uf = new UnionFind(n);
+          //UnionFind uf = new UnionFind(n);
+          QuickFind findAlgo = new QuickFind(n);
           while (p1 >= 0 && p2 >= 0)
           {
-     
-              if (!uf.connected(p1, p2))
+
+              if (!findAlgo.connected(p1, p2))
               {
                   //    Up to here
                   Console.WriteLine("Connecting {0} to {1}", p1, p2);
- 
-                  uf.union(p1, p2);
+
+                  findAlgo.union(p1, p2);
               }
               else
               {
-                  Console.WriteLine("{0} and {1} already connected", p1, p2q);
+                  Console.WriteLine("{0} and {1} already connected", p1, p2);
               }
               p1 = getIntFromConsole("Enter point p");
               p2 = getIntFromConsole("Enter point q");

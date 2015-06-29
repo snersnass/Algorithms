@@ -4,3 +4,9 @@ c:\users\karen vaneck\documents\visual studio 2013\Projects\AlgorithmsLesson1\Al
 c:\users\karen vaneck\documents\visual studio 2013\Projects\AlgorithmsLesson1\AlgorithmsLesson1\obj\Debug\AlgorithmsLesson1.csprojResolveAssemblyReference.cache
 c:\users\karen vaneck\documents\visual studio 2013\Projects\AlgorithmsLesson1\AlgorithmsLesson1\obj\Debug\AlgorithmsLesson1.exe
 c:\users\karen vaneck\documents\visual studio 2013\Projects\AlgorithmsLesson1\AlgorithmsLesson1\obj\Debug\AlgorithmsLesson1.pdb
+C:\Users\Karen vanEck\Documents\Visual Studio 2013\Projects\Algorithms\AlgorithmsLesson1\AlgorithmsLesson1\bin\Debug\AlgorithmsLesson1.exe.config
+C:\Users\Karen vanEck\Documents\Visual Studio 2013\Projects\Algorithms\AlgorithmsLesson1\AlgorithmsLesson1\obj\Debug\AlgorithmsLesson1.exe
+C:\Users\Karen vanEck\Documents\Visual Studio 2013\Projects\Algorithms\AlgorithmsLesson1\AlgorithmsLesson1\obj\Debug\AlgorithmsLesson1.pdb
+C:\Users\Karen vanEck\Documents\Visual Studio 2013\Projects\Algorithms\AlgorithmsLesson1\AlgorithmsLesson1\bin\Debug\AlgorithmsLesson1.exe
+C:\Users\Karen vanEck\Documents\Visual Studio 2013\Projects\Algorithms\AlgorithmsLesson1\AlgorithmsLesson1\bin\Debug\AlgorithmsLesson1.pdb
+C:\Users\Karen vanEck\Documents\Visual Studio 2013\Projects\Algorithms\AlgorithmsLesson1\AlgorithmsLesson1\obj\Debug\AlgorithmsLesson1.csprojResolveAssemblyReference.cache

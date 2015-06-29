@@ -8,11 +8,28 @@ namespace AlgorithmsLesson1.UnionFindNs
 {
     class UnionFind
     {
-        private int noElements;
+        protected int noElements;
+        protected int[] matrix;
 
+        public UnionFind()
+        {
+            setUpMatrix(10);
+        }
+        
         public UnionFind(int numberOfElements)
         {
-            noElements = numberOfElements;
+            setUpMatrix(numberOfElements);
+          }
+
+        protected void setUpMatrix(int numberOfElements)
+        {
+        noElements = numberOfElements;
+            matrix = new int[10];
+            for (int i = 0 ; i < 10 ; i ++)
+            {
+                matrix[i] = i;
+            }
+  
         }
 
         public void union(int p, int q)
