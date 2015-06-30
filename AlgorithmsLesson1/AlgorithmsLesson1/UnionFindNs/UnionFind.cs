@@ -8,46 +8,46 @@ namespace AlgorithmsLesson1.UnionFindNs
 {
     class UnionFind
     {
-        protected int noElements;
-        protected int[] matrix;
+        protected long noElements;
+        protected long[] matrix;
 
         public UnionFind()
         {
             setUpMatrix(10);
         }
-        
-        public UnionFind(int numberOfElements)
+
+        public UnionFind(long numberOfElements)
         {
             setUpMatrix(numberOfElements);
           }
 
-        protected void setUpMatrix(int numberOfElements)
+        protected void setUpMatrix(long numberOfElements)
         {
         noElements = numberOfElements;
-            matrix = new int[10];
-            for (int i = 0 ; i < 10 ; i ++)
+        matrix = new long[numberOfElements];
+        for (long i = 0; i < numberOfElements; i++)
             {
                 matrix[i] = i;
             }
   
         }
 
-        public void union(int p, int q)
+        public void union(long p, long q)
         {
 
         }
 
-        public Boolean connected(int p, int q)
+        public Boolean connected(long p, long q)
         {
             return false;
         }
 
-        public int find(int p)
+        public int find(long p)
         {
             return -1;
         }
 
-        public int count()
+        public long count()
         {
             return -1;
         }

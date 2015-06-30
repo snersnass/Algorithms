@@ -9,17 +9,18 @@ namespace AlgorithmsLesson1.UnionFindNs
     class QuickFind : UnionFind
     {
 
-        public QuickFind(int numberOfElements)
+        public QuickFind(long numberOfElements)
         {
+            Console.WriteLine("QuickFind");
             setUpMatrix(numberOfElements);
           }
 
-        public void union(int p, int q)
+        public void union(long p, long q)
         {
-            int pId = matrix[p];
-            int qId = matrix[q];
+            long pId = matrix[p];
+            long qId = matrix[q];
 
-            for (int i = 0 ; i < noElements ; i++)
+            for (long i = 0 ; i < noElements ; i++)
             {
                 if (matrix[i] == pId)
                 {
@@ -28,7 +29,7 @@ namespace AlgorithmsLesson1.UnionFindNs
             }
         }
 
-        public Boolean connected(int p, int q)
+        new public Boolean connected(long p, long q)
         {
             return (matrix[p] == matrix[q]);
         }

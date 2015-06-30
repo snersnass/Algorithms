@@ -11,15 +11,14 @@ namespace AlgorithmsLesson1
     {
         static void Main(string[] args)
         {
-
-            int n = getIntFromConsole("How many points does your set have?");
+            long n = getIntFromConsole("How many points does your set have?");
      
       if (n > 0)
       {
-          int p1 = getIntFromConsole("Enter point p");
-          int p2 = getIntFromConsole("Enter point q");
+          long p1 = getIntFromConsole("Enter point p");
+          long p2 = getIntFromConsole("Enter point q");
           //UnionFind uf = new UnionFind(n);
-          QuickFind findAlgo = new QuickFind(n);
+          QuickUnion findAlgo = new QuickUnion(n);
           while (p1 >= 0 && p2 >= 0)
           {
 
@@ -50,11 +49,11 @@ namespace AlgorithmsLesson1
  
         }
 
-       static int getIntFromConsole(String prompt)
+       static long getIntFromConsole(String prompt)
         {
-            int n = 0;
+            long n = 0;
             Console.WriteLine(prompt);
-            if (int.TryParse(Console.ReadLine(), out n))
+            if (long.TryParse(Console.ReadLine(), out n))
             {
 
             }
